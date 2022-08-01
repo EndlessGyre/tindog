@@ -1,4 +1,17 @@
-body{
+/* Element and page-wide selectors */
+
+/* body{
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.brand-color{
+    background-color: #ff4c68;
+}
+.brand-color2{
+    background-color: #ef8172;
+}
+
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -6,37 +19,6 @@ body{
 
 .container-fluid{
     padding: 3% 15%;
-}
-
-.brand-color{
-    background-color: #ff4c68;
-}
-
-/* #title{
-    
-} */
-
-.header-img{
-    margin-left: 125px;
-    transform: rotate(25deg);
-    width: 50%;    
-    z-index: 0;
-    position: absolute;
-    right: 25%;
-}
-
-#brand{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-#mainheader{
-    color: white;
-    font-family: 'Montserrat Alternates', sans-serif; 
-    font-size: 3.5rem;
-    line-height: 1.5;
-    position: relative;   
 }
 
 .navbar{
@@ -50,6 +32,29 @@ body{
 .nav-link{
     font-family: 'Montserrat-Light', sans-serif;
     font-size: 1.5rem;
+}
+
+.brand-font{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.showcase-heading{
+    color: white;    
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    position: relative;   
+}
+
+.showcase-img{
+    margin-left: 125px;
+    transform: rotate(25deg);
+    width: 50%;    
+    z-index: 0;
+    position: absolute;
+    right: 25%;
 }
 
 .download-btn{
@@ -70,15 +75,13 @@ body{
     padding: 5%;
 }
 
-.feature-header{
-    font-family: 'Montserrat-bold', sans-serif;
+.feature-header{    
     font-size: 2rem;
     font-weight: bolder;
 }
 
 .feature-icon{
-    font-size: 64px; 
-    color:#ef8172;
+    font-size: 64px;     
 }
 
 .feature-icon:hover{
@@ -94,12 +97,11 @@ body{
 /* Testimonials */
 #testimonials{
     text-align: center;
-    background-color: #ef8172;
+    
     color: white;
 }
 
-h2{
-    font-family: 'Montserrat-bold', sans-serif;
+h2{    
     font-size: 3rem;
     font-weight: 900;
     line-height: 1.5;
@@ -115,8 +117,7 @@ h2{
 
 #press{
     padding-bottom: 5%;
-    text-align: center;
-    background-color: #ef8172;
+    text-align: center;    
 }
 
 .press-logo{
